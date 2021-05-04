@@ -1,7 +1,16 @@
 body{
-    background-color: peru;
+    background-color: rgb(182, 194, 230);
 }
 
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease-in-out
+}
+
+.clicked{
+    color:rgb(255, 190, 190)
+}
+
+.btn{
+    cursor: pointer;
 }
